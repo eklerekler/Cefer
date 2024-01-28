@@ -1,0 +1,138 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+section {
+  padding: 100px 0;
+}
+
+.imgbox {
+  overflow: hidden;
+}
+.imgbox img {
+  width: 100%;
+}
+
+header {
+  background-color: #212529;
+  position: fixed;
+  width: 100%;
+}
+header .menu {
+  padding: 17px 0;
+}
+header .menu .imgbox {
+  width: 140px;
+}
+header .menu .imgbox img {
+  cursor: pointer;
+}
+header .menu nav {
+  font-size: 20px;
+}
+header .menu nav a {
+  margin-left: 25px;
+  cursor: pointer;
+}
+header .menu nav a:hover {
+  color: #e4b30e;
+}
+@media screen and (min-width: 991px) {
+  header .menu {
+    padding: 24px 0;
+  }
+  header .menu .btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  header nav a {
+    display: none;
+  }
+  header nav .btn {
+    border: 1px solid #2f3337;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #949698;
+    padding-right: 30px;
+  }
+}
+
+#ourstudio {
+  background-image: url("https://raw.githubusercontent.com/startb00tstrap/startb00tstrapagency/main/header-bg.jpg");
+  padding: 200px 0;
+  background-position: center;
+  background-size: cover;
+}
+#ourstudio .textbox {
+  margin-top: 70px;
+  color: white;
+}
+#ourstudio .textbox h1 {
+  font-size: 40px;
+}
+#ourstudio .textbox h3 {
+  font-size: 80px;
+  font-weight: 700;
+  margin: 30px 0 60px;
+}
+#ourstudio .textbox .btn {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: #ffc800;
+  padding: 17px 47px;
+  border-radius: 6px;
+}
+#ourstudio .textbox .btn:hover {
+  background-color: #d9aa00;
+}
+#ourstudio .textbox .btn h2 {
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  #ourstudio {
+    padding: 100px 0;
+  }
+  #ourstudio .textbox {
+    margin-top: 70px;
+  }
+  #ourstudio .textbox h1 {
+    font-size: 31px;
+  }
+  #ourstudio .textbox h3 {
+    font-size: 73px;
+    margin: 20px 0 20px;
+  }
+}
+
+#services .textbox {
+  text-align: center;
+}
+#services .textbox h1, #services .textbox h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#services .textbox h3, #services .textbox h4 {
+  font-size: 20px;
+  color: #a5abb0;
+  margin: 20px 0 65px;
+}
+#services .textbox .icon {
+  font-size: 65px;
+  padding: 30px 0;
+  margin: 0 143px;
+  background-color: #ffc800;
+  color: white;
+  border-radius: 50%;
+}
+#services .textbox h2 {
+  font-size: 31px;
+  margin: 15px 0 20px;
+}
+#services .textbox h4 {
+  line-height: 1.4;
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
